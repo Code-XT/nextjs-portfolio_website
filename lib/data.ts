@@ -57,6 +57,8 @@ export const projectsData = [
       "A one stop search tool and recommender for all your anime/movie/tv or gaming needs",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: funzoneImg,
+    gitUrl: "https://github.com/Code-XT/FunZoneDB",
+    previewUrl: "https://fun-zone-db.vercel.app/",
   },
   {
     title: "Currency Converter CX",
@@ -64,6 +66,8 @@ export const projectsData = [
       "Has 650+ currencies to convert between with rates that update daily. Also, there's no daily conversion limit",
     tags: ["React", "TypeScript", "Tailwind", "Vite"],
     imageUrl: currencyImg,
+    gitUrl: "https://github.com/Code-XT/Currency_Converter-ChromeExtension",
+    previewUrl: "https://currency-converter-chrome-extension.vercel.app/",
   },
 ] as const;
 
