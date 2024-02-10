@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import funzoneImg from "@/public/funzone.png";
 import currencyImg from "@/public/currency.png";
+import recorderImg from "@/public/recorder.png";
 
 export const links = [
   {
@@ -61,6 +62,15 @@ export const projectsData = [
     previewUrl: "https://fun-zone-db.vercel.app/",
   },
   {
+    title: "Object Detection Auto Record",
+    description:
+      "Automatically starts recording when a human is detected in a video",
+    tags: ["React", "Next.js", "Tailwind", "Tensorflow.js", "CocoSsd"],
+    imageUrl: recorderImg,
+    gitUrl: "https://github.com/Code-XT/object-detection_auto-record",
+    previewUrl: "https://object-detection-auto-record.vercel.app/",
+  },
+  {
     title: "Currency Converter CX",
     description:
       "Has 650+ currencies to convert between with rates that update daily. Also, there's no daily conversion limit",
@@ -86,5 +96,9 @@ export const skillsData = [
   "MongoDB",
   "MySQL",
   "Express",
+  "WebRTC",
+  "WebSockets",
+  "Framer Motion",
+  "Tensorflow",
   "Python",
 ] as const;
