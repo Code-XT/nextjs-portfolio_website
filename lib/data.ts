@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import funzoneImg from "@/public/funzone.png";
 import currencyImg from "@/public/currency.png";
 import recorderImg from "@/public/recorder.png";
+import shareHubImg from "@/public/sharehub.png";
 
 export const links = [
   {
@@ -69,6 +70,15 @@ export const projectsData = [
     imageUrl: recorderImg,
     gitUrl: "https://github.com/Code-XT/object-detection_auto-record",
     previewUrl: "https://object-detection-auto-record.vercel.app/",
+  },
+  {
+    title: "ShareHUB",
+    description:
+      "Effortlessly transfer files, share shortened links, and chat with complete peace of mind. Enjoy end-to-end encryption for all your data and communications.",
+    tags: ["React", "Next.js", "Tailwind", "Node.js", "Socket.io"],
+    imageUrl: shareHubImg,
+    gitUrl: "https://github.com/Code-XT/ShareHUB/",
+    previewUrl: "https://share-hub-pi.vercel.app",
   },
   {
     title: "Currency Converter CX",
