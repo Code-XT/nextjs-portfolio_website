@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import funzoneImg from "@/public/funzone.png";
 import currencyImg from "@/public/currency.png";
 import recorderImg from "@/public/recorder.png";
-import shareHubImg from "@/public/sharehub.png";
+import shareHubImg from "@/public/shareHub.png";
 
 export const links = [
   {
