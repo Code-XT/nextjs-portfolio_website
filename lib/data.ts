@@ -6,6 +6,7 @@ import funzoneImg from "@/public/funzone.png";
 import currencyImg from "@/public/currency.png";
 import recorderImg from "@/public/recorder.png";
 import shareHubImg from "@/public/shareHub.png";
+import devDoodleImg from "@/public/devDoodle.png";
 
 export const links = [
   {
@@ -70,6 +71,15 @@ export const projectsData = [
     imageUrl: recorderImg,
     gitUrl: "https://github.com/Code-XT/object-detection_auto-record",
     previewUrl: "https://object-detection-auto-record.vercel.app/",
+  },
+  {
+    title: "DevDoodle",
+    description:
+      "An online code editor and execution platform that supports way more languages than what anyone needs",
+    tags: ["React", "Tailwind", "Vite"],
+    imageUrl: devDoodleImg,
+    gitUrl: "https://github.com/Code-XT/devDoodle",
+    previewUrl: "https://dev-doodle.vercel.app/",
   },
   {
     title: "ShareHUB",
