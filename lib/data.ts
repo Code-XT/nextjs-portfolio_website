@@ -7,6 +7,7 @@ import currencyImg from "@/public/currency.png";
 import recorderImg from "@/public/recorder.png";
 import shareHubImg from "@/public/shareHub.png";
 import devDoodleImg from "@/public/devDoodle.png";
+import motionCrashImg from "@/public/motionCrash.png";
 
 export const links = [
   {
@@ -58,10 +59,19 @@ export const projectsData = [
     title: "FunZone-DB",
     description:
       "A one stop search tool and recommender for all your anime/movie/tv or gaming needs",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    tags: ["React", "Next.js", "Tailwind", "APIs"],
     imageUrl: funzoneImg,
     gitUrl: "https://github.com/Code-XT/FunZoneDB",
     previewUrl: "https://fun-zone-db.vercel.app/",
+  },
+  {
+    title: "Motion CRASH",
+    description:
+      "Unleash chaos on the track as you crash, and wreck your way to victory!",
+    tags: ["React", "Next.js", "Tailwind", "MediaPipe", "GoogleAI", "Gaming"],
+    imageUrl: motionCrashImg,
+    gitUrl: "https://github.com/Code-XT/MotionCrash",
+    previewUrl: "https://motion-crash.vercel.app/",
   },
   {
     title: "Object Detection Auto Record",
